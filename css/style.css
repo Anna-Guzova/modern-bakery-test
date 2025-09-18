@@ -1,0 +1,188 @@
+:root {
+  --bakery-landing-1-background: #faf4ea;
+  --bakery-landing-1-s1: #31261a;
+  --bakery-landing-1-c2: #819b57;
+  --bakery-landing-1-s3: #465929;
+  --bakery-landing-1-s4: #a18268;
+  --bakery-landing-1-c5: #cfcfbc;
+  --beauty-landing-2-background: #fff;
+  --beauty-landing-2-s2: #2b7fff;
+  --beauty-landing-2-c1: #011c44;
+  --beauty-landing-2-c3: #4a4a4a;
+  --beauty-landing-2-s4: #ffd02b;
+  --beauty-landing-2-s5: #747272;
+  --beauty-landing-2-c6: #011f4a;
+  --dog-landing-3-background: #fff;
+  --dog-landing-3-s1: #ff9f0e;
+  --dog-landing-3-s2: #fcb62a;
+  --dog-landing-3-c3: #fffaf3;
+  --dog-landing-3-c4: #181817;
+  --dog-landing-3-c5: #f1f3ff;
+  --dog-landing-3-c6: #839aa9;
+  --dog-landing-3-s8: #f9f9ff;
+  --dog-landing-3-c9: #d9a6ff;
+  --dog-landing-3-c10: #ff6e9f;
+}
+
+body {
+  color: var(--bakery-landing-1-s1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.conteiner {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 autoS;
+  padding: 0 24px;
+}
+/* 24*2=48+max-width */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+.section {
+  padding: 48px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.header-conteiner {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+.header-menu {
+  display: flex;
+  gap: 64px;
+  flex-grow: 1;
+  justify-content: center;
+}
+.button {
+  color: var(--bakery-landing-1-background);
+  background-color: var(--bakery-landing-1-c2);
+  border: 2px solid var(--bakery-landing-1-c2);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.button:hover {
+  color: var(--bakery-landing-1-s3);
+  background-color: transparent;
+}
+.link {
+  color: var(--bakery-landing-1-background);
+  text-align: center;
+}
+.link:hover {
+  color: var(--bakery-landing-1-s3);
+}
+.hero-section {
+  padding: 272px 0;
+  background-image: url(/imagers/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title {
+  margin-bottom: 0;
+  color: var(--bakery-landing-1-background);
+  text-align: center;
+  font-size: 128px;
+  font-weight: 900;
+}
+.traditin-section {
+  padding-top: 96px;
+}
+.tradition-conteiner {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.traditions-content {
+  max-width: 710px;
+}
+.tradition-text:last-child {
+  max-width: 340px;
+}
+.hero-title .accent {
+  color: var(--bakery-landing-1-c2);
+}
+.traditin-title {
+  margin-bottom: 42px;
+}
+.advantages-section {
+  padding: 16px 0;
+  background-color: var(--bakery-landing-1-c2);
+}
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.advantages-item {
+  color: var(--bakery-landing-1-background);
+  font-size: 20px;
+  font-weight: 300;
+}
+.section-title {
+  color: var(--bakery-landing-1-s1);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+.section-title .chef {
+  color: var(--bakery-landing-1-s3);
+}
+.chefs-title {
+  margin-bottom: 80px;
+}
+.format {
+  border-radius: 16px;
+  width: 349px;
+  height: 444px;
+  padding: 24px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(49, 38, 26, 0) 55.21%,
+    rgba(49, 38, 26, 0.71) 72.92%,
+    #31261a 100%
+  );
+}
+.format-list {
+  display: flex;
+  gap: 20px;
+}
+
+.footer {
+  background-color: var(--bakery-landing-1-s1);
+  background-image: url('/imagers/footer-back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
