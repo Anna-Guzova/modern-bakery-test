@@ -103,7 +103,7 @@ ul {
 }
 .hero-section {
   padding: 272px 0;
-  background-image: url(/imagers/background.jpg);
+  background-image: url(/images/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,7 +181,7 @@ ul {
 
 .footer {
   background-color: var(--bakery-landing-1-s1);
-  background-image: url('/imagers/footer-back.png');
+  background-image: url('/images/footer-back.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
