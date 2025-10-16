@@ -1,0 +1,39 @@
+.input {
+  margin-bottom: 32px;
+  &__label {
+    display: block;
+  }
+  &__control {
+    padding: 16px 42px;
+    width: 100%;
+    border: 1px solid var(--bakery-landing-1-s4);
+    border-radius: 8px;
+    background-color: transparent;
+
+    &:focus {
+      border-color: var(--bakery-landing-1-s1);
+      outline: none;
+    }
+    &::placeholder {
+      color: var(--bakery-landing-1-s4);
+      font-size: 16px;
+      line-height: 1.17;
+    }
+    &:focus::placeholder {
+      color: var(--bakery-landing-1-s1);
+    }
+  }
+}
+
+.form-terms {
+  max-width: 220px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto;
+  &__link {
+    color: var(--bakery-landing-1-s1);
+    text-underline-offset: 2px;
+  }
+}

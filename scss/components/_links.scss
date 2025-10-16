@@ -1,0 +1,12 @@
+.link {
+  color: var(--bakery-landing-1-background);
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.link:hover {
+  color: var(--bakery-landing-1-s3);
+}
+.icon-link {
+  text-decoration: none;
+}

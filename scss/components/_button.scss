@@ -1,0 +1,16 @@
+.button {
+  display: block;
+  color: var(--bakery-landing-1-background);
+  background-color: var(--bakery-landing-1-c2);
+  border: 2px solid var(--bakery-landing-1-c2);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  width: 238px;
+  height: 59px;
+}
+.button:hover {
+  color: var(--bakery-landing-1-s3);
+  background-color: transparent;
+}

@@ -1,0 +1,43 @@
+.format-card {
+  transition: transform 0.3s;
+  width: 349px;
+  height: 444px;
+
+  &__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 16px;
+    width: 349px;
+    height: 444px;
+    padding: 24px;
+    background-image: linear-gradient(
+      180deg,
+      rgba(49, 38, 26, 0) 55.21%,
+      rgba(49, 38, 26, 0.71) 72.92%,
+      #31261a 100%
+    );
+  }
+
+  &__text {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--bakery-landing-1-background);
+  }
+  &:hover {
+    transform: scale(1.05);
+  }
+  &__image {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &__title {
+    color: var(--bakery-landing-1-s1);
+  }
+}
